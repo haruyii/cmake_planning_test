@@ -135,13 +135,21 @@ pip install pandas numpy scikit-learn xgboost tushare matplotlib
 
 ## 文件结构
 project/
+
 ├── main.py # 主程序入口
+
 ├── factor.py # 因子计算函数
+
 ├── backtest.py # 回测框架
+
 ├── data_cache/ # 缓存目录（自动生成）
+
 │ ├── hs300_filtered_stocks.pkl
+
 │ ├── daily_data_hs300.pkl
+
 │ └── daily_valuation_hs300.pkl
+
 └── README.md # 本文件
 
 
